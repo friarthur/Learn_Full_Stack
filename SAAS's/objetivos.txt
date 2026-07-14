@@ -1,0 +1,26 @@
+Nada de calculadora.
+
+Faça algo como:
+
+Sistema SaaS.
+
+Por exemplo:
+
+- Estoque
+- ERP simples
+- Help Desk
+- Financeiro
+- Agendamento
+
+Com:
+
+- Login
+- Permissões
+- API
+- Docker
+- Bootstrap
+- HTMX
+- MySQL
+- PHP
+
+Esse projeto vira seu portfólio.

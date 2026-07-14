@@ -1,0 +1,25 @@
+Aqui você vira backend.
+
+Você vai aprender:
+
+```
+GET
+
+POST
+
+PUT
+
+DELETE
+```
+
+Status HTTP.
+
+JSON.
+
+Tokens.
+
+Autenticação.
+
+Projeto:
+
+API de gerenciamento financeiro.

@@ -1,0 +1,15 @@
+Bootstrap:
+
+Não decorar classes.
+
+Saber montar interface rapidamente.
+
+HTMX:
+
+Esse, para você, vale muito.
+
+Você já disse várias vezes que não gosta de AJAX.
+
+HTMX praticamente resolve isso.
+
+Você continua escrevendo PHP.

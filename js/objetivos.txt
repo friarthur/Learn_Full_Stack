@@ -1,0 +1,17 @@
+Dominar:
+
+- let
+- const
+- objetos
+- arrays
+- map
+- filter
+- find
+- reduce
+- fetch
+- async
+- await
+
+Projeto:
+
+Dashboard consumindo API.

@@ -1,0 +1,20 @@
+Todo dia.
+
+POO
+Classes
+Herança
+Interfaces
+Traits
+Namespaces
+Composer
+PDO
+Arquitetura MVC
+Segurança
+Upload
+Login
+Sessões
+CRUD
+
+Projeto:
+
+Sistema de chamados.

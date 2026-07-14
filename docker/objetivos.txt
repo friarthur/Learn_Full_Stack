@@ -1,0 +1,24 @@
+Docker de verdade.
+
+Não decorar comandos.
+
+Entender:
+
+```
+Container
+
+Imagem
+
+Volume
+
+Rede
+
+Dockerfile
+
+Docker Compose
+```
+
+Você deve conseguir pegar qualquer projeto PHP e subir com
+
+```
+docker compose up
