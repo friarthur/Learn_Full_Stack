@@ -60,3 +60,24 @@ $JANT->pet = 'Teresa';
 $JANT -> pai = "Arthur";
 $JANT -> Familia();
 var_dump($JANT);
+
+//php 8.4
+
+class Animal{
+        public string $nome;
+        public string $tipo;
+        public string $funcao;
+    public function __construct($nome, $tipo, $funcao){
+     $this->nome =$nome;
+     $this->tipo =$tipo;
+     $this->funcao =$funcao;
+      echo 'esse animal é ' . $this->nome . 'ele ' . $this->tipo . 'e a função dele é ' . $this->funcao;  
+    }
+       
+}
+$animal = new Animal(
+    nome: 'arara',
+    tipo: 'ave',
+    funcao: 'voar'
+);
+var_dump($animal);
