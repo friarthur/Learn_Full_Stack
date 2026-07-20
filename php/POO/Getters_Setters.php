@@ -122,3 +122,47 @@ $pessoa ->Falar();
 var_dump($pessoa);
 
 
+class Biblioteca{
+    private string $cliente_alugou;
+    private string $nome_livro;
+    private int $numeroLivro;
+    private int $data_devolucao;
+
+    public function setClientealugou(string $cliente_alugou): void{
+        $this->cliente_alugou =$cliente_alugou;
+    }
+    public function getClientealugou(): string{
+        return $this->cliente_alugou;
+    }
+    public function setNomelivro(string $nome_livro): void{
+        $this->nome_livro = $nome_livro;
+    }
+    public function getNomelivro(): string{
+        return $this->nome_livro;
+    }
+    public function setNumerolivro(int $numeroLivro): void{
+      $this->numeroLivro = $numeroLivro;
+    }
+    public function getNumerolivro():int{
+        return $this->numeroLivro;
+    }
+    public function setDatadevolucao(int $data_devolucao): void{
+        $this->data_devolucao = $data_devolucao;
+    }
+    public function getDatadevolucao():int{
+        return $this->data_devolucao;
+    }
+
+    public function __construct($cliente_alugou , $nome_livro, $numeroLivro, $data_devolucao){
+        $this->cliente_alugou = $cliente_alugou;
+        $this->nome_livro = $nome_livro;
+        $this->numeroLivro = $numeroLivro;
+        $this->data_devolucao = $data_devolucao;
+    }
+}
+$biblioteca = new Biblioteca('', '', '','');
+$biblioteca ->setCliente_alugou('arthur');
+$biblioteca ->setNomeLivro('Harry POtter');
+$biblioteca ->setNumerolivro(1554692);
+$biblioteca ->setDatadevolucao(10042001);
+
