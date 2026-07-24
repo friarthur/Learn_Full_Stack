@@ -1,10 +1,26 @@
 [
     {
         "nome": "user tester local",
-        "preco ": "522"
+        "preco": "522"
     },
     {
         "nome": "user tester local",
-        "preco ": ""
+        "preco": ""
+    },
+    {
+        "nome": "user tester ",
+        "preco": "21231"
+    },
+    {
+        "nome": "batata",
+        "preco": "2"
+    },
+    {
+        "nome": "arroz",
+        "preco": "5"
+    },
+    {
+        "nome": "feijao",
+        "preco": "6"
     }
 ]

@@ -6,7 +6,7 @@ $produtos = json_decode($json, true);
 
 $novoProduto=[
     'nome' => $_POST['nome'],
-    'preco ' => $_POST['preco']
+    'preco' => $_POST['preco']
 ];
 $produtos[]=$novoProduto;
 $json = json_encode($produtos, JSON_PRETTY_PRINT);
