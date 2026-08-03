@@ -19,6 +19,10 @@ $produtos
     <link rel="stylesheet" href="/projets_estudos/php/Projeto_Um/public/css/style.css">
 </head>
 <body>
+    <div class="search">
+        <label for="">Pesquisar</label><br>
+        <input type="search" name="" id="" placeholder="🔎 Pesquise algum produto...">
+    </div>
     <form action="/projets_estudos/php/Projeto_Um/controllers/salva_itens.php" method="post">
         
         <input type="text" name="nome" placeholder="Escreva algum item">
